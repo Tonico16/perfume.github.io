@@ -39,9 +39,14 @@ h1 {
     background-color: white;
     width: 375px;
     height: auto;
-    text-align: center;
+    text-align: justify;
+    
 }
 
+.texto {
+
+    padding-left: 15px;
+}
 
 .carrito-btn {
     font-family: 'Montserrat', sans-serif;
@@ -50,5 +55,5 @@ h1 {
     color: white;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
-   
+    margin: 20px 0px;
   }
