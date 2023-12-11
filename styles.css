@@ -12,18 +12,19 @@ img {
 p {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
-    font-size: 14px
+    font-size: 16px ;
+    line-height: 25px ;
 }
 
 h1 {
     font-family: 'Fraunces', serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .precioanterior {
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
-    font-size: 10px
+    font-size: 17px
 }
 
 .precioactual {
@@ -39,13 +40,14 @@ h1 {
     background-color: white;
     width: 375px;
     height: auto;
-    text-align: justify;
+    border-radius: 10px;
+    overflow: hidden;
     
 }
 
 .texto {
 
-    padding: 0 15px;
+    padding: 0 28px;
 }
 
 .carrito-btn {
@@ -56,4 +58,5 @@ h1 {
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
     margin: 20px 0px;
+    width:  100%;
   }
